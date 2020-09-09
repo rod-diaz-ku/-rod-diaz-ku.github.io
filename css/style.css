@@ -1,0 +1,37 @@
+.bg-navigation {
+  background-color: #EE2F65!important;
+}
+
+.bg-banner{
+  background-image: url("../images/laptop-3047422_1920.jpg");
+  background-color: #cccccc;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.regard{
+    font-family: "Brush Script MT", cursive; 
+    color: #ff5722;
+}
+
+.bg-regard{
+    background-color: #e6d690;
+}
+
+.circle{
+  position:relative;
+  width:50%;
+  padding-bottom:50%;
+  background: #957e42;
+  border-radius:50%;
+}
+.circle span{
+  position:absolute;
+  top:50%; left:50%;
+  color: #d4dbda;
+  transform: translate(-50%, -50%);
+  margin:0;
+}
