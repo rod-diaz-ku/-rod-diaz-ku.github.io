@@ -43,6 +43,9 @@
                         <a href="#projects" class="nav-link text-light text-uppercase font-weight-bold px-3"  role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="sr-only">(Projects)</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#contact">Contact</a>
                     </li>
                 </ul>     
@@ -156,6 +159,33 @@
         </div>
     </section>
     <!-- end of projects -->
+    <!-- hobbies -->
+    <section class="p-5" id="hobbies" style="background-color: #d3d0cb; height: 100vh;">
+        <div class="container-fluid  p-2">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h1 class="display-2 section-title">Hobbies</h1>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-12 text-center">
+                    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1te6miphixI" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <h2 class="my-3 hobbies-title">Listen to music</h2>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <iframe  width="300" height="300" src="https://www.youtube.com/embed/c_bIBJZ39tU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 class="my-3 hobbies-title">Listen to podcast</h2>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <iframe src="https://www.recetasgratis.net/receta-de-lasagna-con-bolognesa-44313.html" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <h2 class="my-3 hobbies-title">Cooking</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of hobbies -->
     <!-- contact -->
     <section class="p-5" id="contact" style="background-color: #A3BAC3;  height: 100vh;">
         <div class="container-fluid">
@@ -188,6 +218,7 @@
                             <textarea class="form-control" id="message" rows="3"></textarea>
                         </div>
                         <a id="mailto" href="" class="btn btn-dark btn-block" type="submit">Send message</a>
+                        <!-- <button class="g-recaptcha" data-sitekey="your_site_key" data-callback='onSubmit'>Submit</button> -->
                     </form>
                 </div>
             </div>
@@ -200,6 +231,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- captcha -->
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+    function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    }
+    </script> -->
     <script>
         let warning= document.getElementById("emptyFields");
         let form = document.getElementById("contactForm");
