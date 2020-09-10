@@ -225,7 +225,22 @@
         </div> 
     </section>
     <!-- end of contact -->
-    <footer></footer>
+    <!-- footer -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-white font-weight-light text-capitalize p-3">Rodrigo Díaz Portfolio</h1>
+                    <div class="py-2">
+                        <a href="https://www.facebook.com/suverrd/"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+                        <a href="https://www.linkedin.com/in/rod-diaz/"><i class="fab fa-linkedin-in fa-2x text-info mx-3bg-light"></i></a>
+                    </div>
+                    <p class="text-light py-4 m-0">&copy;Copyright 2020 - Rodrigo Díaz</p>
+                </div>
+            </div>
+        </div>
+     </footer>
+     <!-- end of footer -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -248,7 +263,7 @@
             
         mailto.addEventListener("click", function(e){
             if(name.value && email.value && message.value){
-                let emailBody = "mailto:rodrigo.diaz@theksquaregroup.com?subject=I saw your portafolio and I would like to talk to you :)&body=";
+                let emailBody = "mailto:rodrigo.diaz@theksquaregroup.com?subject=I saw your portfolio and I would like to talk to you :)&body=";
                 emailBody += message.value; 
                 mailto.href= emailBody;
                 // form.submit(); 
