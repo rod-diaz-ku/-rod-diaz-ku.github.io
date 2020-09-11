@@ -26,7 +26,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
 
-            <a href="#" class="navbar-brand"><i class="fas fa-laptop text-warning fa-2x"></i></a>
+            <a href="#" class="navbar-brand"><i class="fas fa-laptop text-warning fa-2x b"></i> <i class="regard">RD</i></a>
             <button type="button" class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,6 +35,9 @@
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
                         <a href="#home" class="nav-link text-light text-uppercase font-weight-bold px-3">Home <span class="sr-only">(Home)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link text-light text-uppercase font-weight-bold px-3">About Me <span class="sr-only">(Home)</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#skills" class="nav-link  text-light text-uppercase font-weight-bold px-3">Skills <span class="sr-only">(Skills)</a>
@@ -54,10 +57,11 @@
         <!--end of navbar -->
     </header>
     <!-- Home -->
-    <section class="bg-regard" id="home">
+    <section id="home">
         <div class="container-fluid">
-            <div class="row bg-banner"></div>
-            <div class="row" style="height: 50vh;">
+            <!-- <div class="row bg-banner"></div> -->
+            <div class="row bg-banner fill-height">
+                <!-- <div class="col-md-12"></div> -->
                 <div class="col-md-4  text-center my-auto">
                     <p class="regard">Hello</p>
                 </div>
@@ -72,10 +76,27 @@
             </div>
         </div>
     </section>
-    <!-- end of Home -->
-    
+    <!-- end of Home -->  
+    <!-- about me -->
+    <section class="bg-about  fill-height-min space-title" id="about-me">
+        <div class="container-fluid p-2">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center mb-3">
+                    <h1 class="display-2 section-title">About Me</h1>
+                    <p class="lead text-light">I'm a computer engineer who graduated form UADY university</p>
+                    <p class="lead text-light">I have 3+ years of experience in the field of software development. I have played roles like Tester and Developer</p>
+                    <p class="lead text-light">I like listen to music and podcast but, also I love to cook :)</p>
+                </div>
+                <div class="col-md-12 text-center">
+                    <p class="lead text-light mx-3">Wanna talk?</p> 
+                    <span class="fa fa-hand-point-right fa-2x text-light mx-1"></span><a href="#contact"><span class="fa fa-envelope fa-2x text-info"></span></a>
+                </div>   
+            </div> 
+        </div>
+    </section>
+    <!-- end of about me -->
     <!-- skills -->
-    <section class="bg-light p-5" id="skills" style=" height: 100vh; overflow: scroll;">
+    <section class="bg-light my-auto fill-height-min space-title" id="skills">
         <div class="container-fluid  p-2">
             <!-- title -->
             <div class="row">
@@ -87,81 +108,85 @@
             <!-- end of title -->
             <div class="row">
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                   <div class="circle"><span class=" font-weight-bold">Java</span></div>
+                   <div class="circle-even"><span class=" font-weight-bold">Java</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">JavaScript</span></div>
+                    <div class="circle-odd"><span class=" font-weight-bold">JavaScript</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">PHP</span></div>
+                    <div class="circle-even"><span class=" font-weight-bold">PHP</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">ANSI C</span></div>
+                    <div class="circle-odd"><span class=" font-weight-bold">ANSI C</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 align-self-center mt-3">
-                    <div class="circle "><span class=" font-weight-bold">HTML</span></div>
+                    <div class="circle-even"><span class=" font-weight-bold">HTML</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">CSS</span></div>
+                    <div class="circle-odd"><span class=" font-weight-bold">CSS</span></div>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">MySql</span></div>
+                    <div class="circle-even"><span class=" font-weight-bold">MySql</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">GIT</span></div>
+                    <div class="circle-odd"><span class=" font-weight-bold">GIT</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">SVN</span></div>
+                    <div class="circle-even"><span class=" font-weight-bold">SVN</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">Linux</span></div>
+                    <div class="circle-odd"><span class=" font-weight-bold">Linux</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">Eclipse RCP</span></div>
+                    <div class="circle-even"><span class=" font-weight-bold">Eclipse RCP</span></div>
                 </div>
                 <div class="col-md-2 col-sm-4 col-6 mt-3">
-                    <div class="circle"><span class=" font-weight-bold">Windows</span></div>
+                    <div class="circle-odd"><span class=" font-weight-bold">Windows</span></div>
                 </div>
             </div>
         </div>
     </section>
     <!-- end of skills -->
     <!-- Projects -->
-    <section class="p-5" id="projects" style="background-color: #c2e1c2; height: 100vh;">
+    <section class="bg-projects fill-height-min space-title" id="projects">
         <div class="container-fluid  p-2">
             <!-- title -->
             <div class="row">
-                <div class="col text-center mb-3">
+                <div class="col-12 text-center mb-3">
                     <h1 class="display-2 section-title">Projects</h1>
                     <p class="lead text-secondary">Fancy stuffs coming soon!</p>
                 </div>
             </div>
             <!-- end of title -->
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6 text-center">
-                    <img src="https://via.placeholder.com/250" class="img-thumbnail">
-                    <h2 class="my-3 projects-title">One</h2>
-                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, nemo!</p>
+                    <img src="images/portfolio.jpg" class="img-thumbnail hobbies-size">
+                    <h2 class="my-3 projects-title">Portfolio</h2>
+                    <p class="text-muted">Profile page. Work experience, skills and hobbies.</p>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
-                    <img src="https://via.placeholder.com/250" class="img-thumbnail">
+                <div class="col-lg-6 text-center">
+                    <img src="images/reuben-juarez-C4sxVxcXEQg-unsplash.jpg"  class="rounded-circle img-fluid" alt="Responsive Image" 
+                    style="max-width: 15rem;">
+                </div>
+                <!-- <div class="col-lg-4 col-sm-6 text-center">
+                    <img src="https://via.placeholder.com/250" class="img-thumbnail hobbies-size">
                     <h2 class="my-3 projects-title">Two</h2>
                     <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, nemo!</p>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center">
-                    <img src="https://via.placeholder.com/250" class="img-thumbnail">
+                    <img src="https://via.placeholder.com/250" class="img-thumbnail hobbies-size">
                     <h2 class="my-3 projects-title">Three</h2>
-                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, nemo!</p>
-                </div>
+                    <p class="text-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, nemo!</p>
+                </div> -->
             </div>
         </div>
     </section>
     <!-- end of projects -->
     <!-- hobbies -->
-    <section class="p-5" id="hobbies" style="background-color: #d3d0cb; height: 100vh;">
-        <div class="container-fluid  p-2">
+    <section class="bg-hobbies fill-height-min space-title" id="hobbies">
+        <div class="container-fluid p-2">
             <!-- title -->
             <div class="row">
                 <div class="col text-center mb-3">
@@ -169,26 +194,28 @@
                 </div>
             </div>
             <!-- end of title -->
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 col-12 text-center">
-                    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1te6miphixI" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-12 col-12 text-center">
+                    <iframe class="hobbies-size rounded" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1te6miphixI" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     <h2 class="my-3 hobbies-title">Listen to music</h2>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
-                    <iframe  width="300" height="300" src="https://www.youtube.com/embed/c_bIBJZ39tU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <iframe class="hobbies-size rounded" src="https://www.youtube.com/embed/c_bIBJZ39tU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h2 class="my-3 hobbies-title">Listen to podcast</h2>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
-                    <iframe src="https://www.recetasgratis.net/receta-de-lasagna-con-bolognesa-44313.html" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <h2 class="my-3 hobbies-title">Cooking</h2>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <a href="https://www.recetasgratis.net/receta-de-lasagna-con-bolognesa-44313.html" target="_blank">
+                        <img src="images/lasagna.jpg" class="hobbies-size rounded" alt="lasagna recipe">
+                    </a>
+                    <h2 class="my-3 hobbies-title">Cook</h2>
                 </div>
             </div>
         </div>
     </section>
     <!-- end of hobbies -->
     <!-- contact -->
-    <section class="p-5" id="contact" style="background-color: #A3BAC3;  height: 100vh;">
-        <div class="container-fluid">
+    <section class="bg-contact fill-height-min space-title" id="contact">
+        <div class="container-fluid p-2">
              <!-- title -->
              <div class="row">
                 <div class="col text-center mb-3">
@@ -217,7 +244,7 @@
                             <label for="message">Your Message</label>
                             <textarea class="form-control" id="message" rows="3"></textarea>
                         </div>
-                        <a id="mailto" href="" class="btn btn-dark btn-block" type="submit">Send message</a>
+                        <a id="mailto" href="" class="btn btn-dark btn-block">Send message</a>
                         <!-- <button class="g-recaptcha" data-sitekey="your_site_key" data-callback='onSubmit'>Submit</button> -->
                     </form>
                 </div>
@@ -265,10 +292,12 @@
                 let emailBody = "mailto:rodrigo.diaz@theksquaregroup.com?subject=I saw your portfolio and I would like to talk to you :)&body=";
                 emailBody += message.value; 
                 mailto.href= emailBody;
+                console.log(emailBody);
                 // form.submit(); 
                 resetForm();   
             }else{
                 warning.style.display="block";
+                scroll(0,0);
                 setTimeout(() => warning.style.display="none",5000);
             } 
         });

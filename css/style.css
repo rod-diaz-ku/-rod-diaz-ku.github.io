@@ -3,31 +3,58 @@
   src: url(../fonts/brush\ script\ mt\ kursiv.ttf);
 }
 
+
+/* Backgrounds */
 .bg-navigation {
   background-color: #EE2F65!important;
 }
 
 .bg-banner{
-  background-image: url("../images/laptop-3047422_1920.jpg");
-  background-color: #cccccc;
-  height: 50vh;
+  background-image: url("../images/hua-ling-RXDTb_XyQho-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* height: 100%; */
 }
 
-.regard{
-    font-family: "brush_script_mt_cursive", cursive; 
-    color: #ff5722;
-    font-size: 3rem;
+/* .bg-regard{
+  background-color: #e6d690;
 }
 
 .bg-regard{
-    background-color: #e6d690;
+  background-color: #e6d690;
+} */
+
+.bg-projects{
+  background-color: #c2e1c2;
 }
 
-.circle{
+.bg-hobbies{
+  background-color: #d3d0cb;
+}
+
+.bg-contact{
+  background-color: #A3BAC3;
+}
+
+.bg-about{
+  background-color: #0c120c;
+}
+
+/* Section titles */
+.section-title{
+  color: #f17105;
+}
+.projects-title{
+  color: #ee2f65;
+}
+.hobbies-title{
+  color: #ac3931;
+}
+
+/* skills forms */
+.circle-odd{
   position:relative;
   width:50%;
   padding-bottom:50%;
@@ -37,7 +64,18 @@
   max-width: 125px;
   min-width: 125px;
 }
-.circle span{
+
+.circle-even{
+  position:relative;
+  width:50%;
+  padding-bottom:50%;
+  background: #cbd4c2;
+  border-radius:50%;
+  margin: auto;
+  max-width: 125px;
+  min-width: 125px;
+}
+.circle-odd span{
   position:absolute;
   top:50%; left:50%;
   color: #d4dbda;
@@ -45,12 +83,35 @@
   margin:0;
 }
 
-.section-title{
-  color: #f17105;
+.circle-even span{
+  position:absolute;
+  top:50%; left:50%;
+  color: #6ba79e;
+  transform: translate(-50%, -50%);
+  margin:0;
 }
-.projects-title{
-  color: #ee2f65;
+
+/* others */
+.regard{
+  font-family: "brush_script_mt_cursive", cursive; 
+  color: lightblue;/*#ff5722;*/ 
+  font-size: 4rem;
+  font-weight: bold;
 }
-.hobbies-title{
-  color: #ac3931;
+
+.hobbies-size{
+  min-width: auto;
+  height: 15rem;
+
+}
+
+.fill-height-min{
+  min-height: 100vh;
+}
+.fill-height{
+  height: 100vh;
+}
+
+.space-title{
+  padding: 100px;
 }
