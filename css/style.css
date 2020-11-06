@@ -10,7 +10,7 @@
 }
 
 .bg-banner{
-  background-image: url("../images/hua-ling-RXDTb_XyQho-unsplash.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("../images/hua-ling-RXDTb_XyQho-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,8 +61,10 @@
   background: #957e42;
   border-radius:50%;
   margin: auto;
-  max-width: 125px;
-  min-width: 125px;
+  /* max-width: 125px; */
+  /* min-width: 125px; */
+  width: 125px;
+  height: 125px;
 }
 
 .circle-even{
@@ -72,8 +74,10 @@
   background: #cbd4c2;
   border-radius:50%;
   margin: auto;
-  max-width: 125px;
-  min-width: 125px;
+  /* max-width: 125px;
+  min-width: 125px; */
+  width: 135px;
+  height: 135px;
 }
 .circle-odd span{
   position:absolute;
@@ -95,8 +99,13 @@
 .regard{
   font-family: "brush_script_mt_cursive", cursive; 
   color: lightblue;/*#ff5722;*/ 
-  font-size: 4rem;
+  font-size: 3rem;/*4rem;*/
   font-weight: bold;
+}
+
+.avatar-img{
+  max-width: 14rem !important;
+  margin-bottom: 4em !important;
 }
 
 .hobbies-size{
@@ -113,5 +122,5 @@
 }
 
 .space-title{
-  padding: 100px;
+  padding: 10%;/*100px;*/
 }
