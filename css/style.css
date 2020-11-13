@@ -4,9 +4,19 @@
 }
 
 
+/*----------------------*/
 /* Backgrounds */
 .bg-navigation {
   background-color: #EE2F65!important;
+}
+
+.hello{
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../images/computer-1245714_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* height: 100%; */
 }
 
 .bg-banner{
@@ -123,4 +133,16 @@
 
 .space-title{
   padding: 10%;/*100px;*/
+}
+
+.hello h1{
+  position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:90px;
+    color:#E1EEEE/*#CBE690;*/
+    width:100%;
+    text-align:center;
+    margin:0;
 }
